@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.section-body{
+    position: relative;
+    width: 30%;
+    border: 2px solid black;
+    padding: 5px 0;  
+    float: left;
+    background-color: darkgray;
+}
+    
+.float-right h3{
+    text-align: center;
+    background-color: dimgray;
+    opacity: .8;
+    width: 100px;
+    padding: 5px 2px;
+    border: 2px solid black;
+}
+
+.float-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    
+
+}
+
+#chicken{
+    margin-left: 50px;
+}
+
+#C{
+    background-color:pink;
+}
+
+#Sushi{
+   margin-right: 50px;
+
+
+}
+
+#S{
+    background-color: yellow;
+}
+
+#Beef{
+   margin: 0 20px;
+}
+
+#B{
+    background-color: red;
+    color: white;
+}
+
+
+
+
+.container{
+   width: 100%;
+   margin: 10px 0;
+   /* border: 5px solid rgb(37, 36, 34); */
+   
+   position: relative;
+   padding: 10px 10px;
+   
+   
+}
+
+
+.section-body p{
+    padding: 5px 10px;
+    margin: 55px 0px;
+    
+}
+
+#sushi{
+   float: left;
+   
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+ @media (min-width:992px) {
+   
+   .section-body{
+       width: 30%;
+      
+       
+   }
+
+   .section-body p{
+    font-size: 14px;
+   }
+
+   .container{
+       padding: 5px;
+
+   }
+
+   #chicken{
+    margin-left: 30px;
+
+   }
+
+   #Sushi{
+       margin-right: 30px;
+   }
+
+
+}
+
+@media (min-width:768px) and (max-width:991px)    {
+    .section-body{
+        width: 45%;
+        
+    }
+ 
+    .container{
+        padding: 5px;
+    }
+ 
+    #chicken{
+     margin-left: 30px;
+ 
+    }
+ 
+    #Sushi{
+       margin: 10px 30px;
+        width: 92.5%;
+    }
+    .section-body p{
+        font-size: 14px;
+       }
+
+    
+        
+}
+
+
+@media (min-width:375px) and (max-width:767px) {
+    .section-body{
+        width: 90%;
+        
+    }
+
+    #chicken{
+        margin: 10px 20px;
+        
+    }
+    
+
+    #Sushi{
+        margin: 10px 20px;
+
+    }
+    .section-body p{
+        font-size: 13px;
+       }
+
+}
+
+@media (max-width:374px){
+    .section-body{
+        width: 80vw;
+    }
+    .section-body p {
+        font-size: 14px; 
+    }
+    #chicken{
+        margin: 10px 20px;
+        
+    }
+    #Sushi{
+        margin: 10px 20px;
+
+    }
+    .section-body p{
+        font-size: 12px;
+       }
+
+
+}
