@@ -24,8 +24,7 @@ h1{
     
 .float-right h3{
     text-align: center;
-    background-color: dimgray;
-    opacity: .8;
+    opacity: 1;
     width: 100px;
     padding: 5px 2px;
     border: 2px solid black;
@@ -35,9 +34,6 @@ h1{
     position: absolute;
     top: 0;
     right: 0;
-
-    
-
 }
 
 #chicken{
@@ -45,7 +41,8 @@ h1{
 }
 
 #C{
-    background-color:pink;
+    background-color: pink;
+    
 }
 
 #Sushi{
@@ -55,7 +52,7 @@ h1{
 }
 
 #S{
-    background-color: yellow;
+    background-color: orange;
 }
 
 #Beef{
@@ -151,8 +148,6 @@ h1{
         font-size: 14px;
        }
 
-    
-        
 }
 
 
